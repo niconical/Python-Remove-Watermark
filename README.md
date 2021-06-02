@@ -1,8 +1,12 @@
 # Python-Remove-Watermark
-A simple program to remove the watermark from a PDF file. 
+A program to remove the watermark from a PDF file. 
 
+### Usages
+```shell
+usage: python3 main.py -i <input.pdf> -o <output.pdf>
+```
 
-### how?
+### How?
 
 1. convert the PDF file into images using `pdf2image`
 2. convert the images to numpy array
